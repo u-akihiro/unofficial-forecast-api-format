@@ -1,0 +1,55 @@
+{
+    "pref": {
+        "name": "県名",
+        "area": [
+            {
+                "name": "地方名",
+                "code": "地方コード",
+                "forecast": [
+                    {
+                        "datetime": "予報対象日時",
+                        "weather": {
+                            "sentence": "予報文"
+                        },
+                        "wind": {
+                            "sentence": "予報文",
+                            "direction": "風向"
+                        },
+                        "wave": {
+                            "sentence": "予報文",
+                            "heigh": "波の高さ"
+                        }
+                    }
+                ],
+                "forecast_time_series": [
+                ],
+                "probability_of_precipitation": [
+                    {
+                        "datetime": "予報対象日時",
+                        "percent": "降水確率(%)",
+                        "condition": "雨雪判別"
+                    }
+                ],
+                "station": {
+                    "name": "地点名",
+                    "code": "地点コード",
+                    "temprature": {
+                        "max_and_min": [
+                            {
+                                "datetime": "予報対象日時",
+                                "max_c": "最高気温",
+                                "min_c": "最低気温"
+                            }
+                        ],
+                        "3hours": [
+                            {
+                                "datetime": "予報対象日時",
+                                "c": "気温"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

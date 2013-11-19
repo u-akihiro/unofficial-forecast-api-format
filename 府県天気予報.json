@@ -24,10 +24,10 @@
                 "forecast_time_series": [
                     {
                         "datetime": "予報対象日時",
-                        "weather": "",
+                        "weather": "天気",
                         "wind": {
-                            "level": "",
-                            "direction": ""
+                            "level": "風速階級",
+                            "direction": "風向"
                         } 
                     }
                 ],

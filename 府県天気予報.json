@@ -22,6 +22,14 @@
                     }
                 ],
                 "forecast_time_series": [
+                    {
+                        "datetime": "予報対象日時",
+                        "weather": "",
+                        "wind": {
+                            "level": "",
+                            "direction": ""
+                        } 
+                    }
                 ],
                 "probability_of_precipitation": [
                     {
